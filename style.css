@@ -61,3 +61,17 @@ hr {
     background: #007BFF;
     margin: 20px 0;
 }
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.btn:hover {
+    background: #0056b3;
+}
+
