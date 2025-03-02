@@ -1,15 +1,63 @@
-
+/* General Styles */
 body {
-  padding: 50px;
-  font-family: georgia;
-  background-color: lightblue ;
-
-font-size: 16px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
+/* Profile Section */
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.profile img {
+    border-radius: 50%;
+    border: 3px solid #007BFF;
+}
 
-div {
-padding: 50px;
-border: solid 1px green;
-border-radius: 10px;
+/* Headings */
+h1 {
+    color: #007BFF;
+}
+h2 {
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+th {
+    background: #007BFF;
+    color: white;
+}
+
+/* Links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Horizontal Rule */
+hr {
+    border: none;
+    height: 2px;
+    background: #007BFF;
+    margin: 20px 0;
 }
